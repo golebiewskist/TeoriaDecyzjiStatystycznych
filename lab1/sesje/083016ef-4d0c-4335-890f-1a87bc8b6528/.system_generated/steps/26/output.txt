@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+test_cli_writes_expected_counts (test_report.ReportTest.test_cli_writes_expected_counts)
+The CLI saves a report for the intended input with counts 3 / 2 / 1. ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.334s
+
+OK

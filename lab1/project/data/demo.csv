@@ -1,0 +1,123 @@
+message_id,text,label
+demo-001,"Subject: Re: New Sequences Window
+
+    Date:        Wed, 21 Aug 2002 10:54:46 -0500
+    From:        Chris Garrigues <cwg-dated-1030377287.06fa6d@DeepEddy.Com>
+    Message-ID:  <1029945287.4797.TMDA@deepeddy.vircio.com>
+
+
+  | I can't reproduce this error.
+
+For me it is very repeatable... (like every time, without fail).
+
+This is the debug log of the pick happening ...
+
+18:19:03 Pick_It {exec pick +inbox -list -lbrace -lbrace -subject ftp -rbrace -rbrace} {4852-4852 -sequence mercury}
+18:19:03 exec pick +inbox -list -lbrace -lbrace -subject ftp -rbrace -rbrace 4852-4852 -sequence mercury
+18:19:04 Ftoc_PickMsgs {{1 hit}}
+18:19:04 Marking 1 hits
+18:19:04 tkerror: syntax error in expression ""int ...
+
+Note, if I run the pick command by hand ...
+
+delta$ pick +inbox -list -lbrace -lbrace -subject ftp -rbrace -rbrace  4852-4852 -sequence mercury
+1 hit
+
+That's where the ""1 hit"" comes from (obviously).  The version of nmh I'm
+using is ...
+
+delta$ pick -version
+pick -- nmh-1.0.4 [compiled on fuchsia.cs.mu.OZ.AU at Sun Mar 17 14:55:56 ICT 2002]
+
+And the relevant part of my .mh_profile ...
+
+delta$ mhparam pick
+-seq sel -list
+
+
+Since the pick command works, the sequence (actually, both of them, the
+one that's explicit on the command line, from the search popup, and the
+one that comes from .mh_profile) do get created.
+
+kre
+
+ps: this is still using the version of the code form a day ago, I haven't
+been able to reach the cvs repository today (local routing issue I think).
+
+
+
+_______________________________________________
+Exmh-workers mailing list
+Exmh-workers@redhat.com
+https://listman.redhat.com/mailman/listinfo/exmh-workers
+
+",ham
+demo-002,"Subject: ^^^^^Cell Phone Belt Clips $1.95^^^^^^                           18070
+
+Cellular Phone Accessories All At Below Wholesale Prices!
+
+http://202.101.163.34:81/sites/merchant/sales/
+
+Hands Free Ear Buds 1.99! 
+Phone Holsters 1.98! 
+Booster Antennas Only $0.99
+Phone Cases 1.98! 
+Car Chargers 1.98! 
+Face Plates As Low As 0.99! 
+Lithium Ion Batteries As Low As 6.94! 
+
+http://202.101.163.34:81/sites/merchant/sales/
+
+Click Below For Accessories On All NOKIA, MOTOROLA LG, NEXTEL, 
+SAMSUNG, QUALCOMM, ERICSSON, AUDIOVOX PHONES At Below 
+WHOLESALE PRICES!
+
+http://202.101.163.34:81/sites/merchant/sales/
+
+***If You Need Assistance Please Call Us (732) 751-1457***
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To be removed from future mailings please send your remove 
+request to: removemenow68994@btamail.net.cn 
+Thank You and have a super day :)
+
+",spam
+demo-003,"Subject: [SAtalk] SA CGI Configurator Scripts
+
+I have been trying to research via SA mirrors and search engines if a canned
+script exists giving clients access to their user_prefs options via a
+web-based CGI interface. Numerous ISPs provide this feature to clients, but
+so far I can find nothing. Our configuration uses Amavis-Postfix and ClamAV
+for virus filtering and Procmail with SpamAssassin for spam filtering. I
+would prefer not to have to write a script myself, but will appreciate any
+suggestions.
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-talk mailing list
+Spamassassin-talk@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-talk
+
+",ham
+demo-004,"Subject: ADV: Lowest life insurance rates available!                                                   moode
+
+Lowest rates available for term life insurance! Take a moment and fill out our online form to see the low rate you qualify for. Save up to 70% from regular rates! Smokers accepted! http://www.newnamedns.com/termlife/ 
+          
+Representing quality nationwide carriers. Act now!
+       
+       
+       
+       
+        
+---------------------------------------
+To easily remove your address from the list, go to: 
+http://www.newnamedns.com/stopthemailplease/
+Please allow 48-72 hours for removal.
+
+",spam

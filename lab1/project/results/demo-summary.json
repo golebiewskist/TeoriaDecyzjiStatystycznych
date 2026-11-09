@@ -1,0 +1,14 @@
+{
+  "input_file": "C:\\Users\\goleb\\OneDrive - Wojskowa Akademia Techniczna\\TeoriaDecyzjiStatystycznych\\lab1\\project\\data\\demo.csv",
+  "input_sha256": "4205a8f17cb463ca00130b5bcbaf24838e1697e26b4ed78f6b7c9f6ce3e87f14",
+  "total_messages": 4,
+  "label_counts": {
+    "ham": 2,
+    "spam": 2
+  },
+  "runtime": {
+    "python_executable": "C:\\Users\\goleb\\AppData\\Local\\Programs\\Python\\Python314\\python3.14t.exe",
+    "python_version": "3.14.0",
+    "working_directory": "C:\\Users\\goleb\\OneDrive - Wojskowa Akademia Techniczna\\TeoriaDecyzjiStatystycznych\\lab1\\project"
+  }
+}

@@ -1,0 +1,10 @@
+Command exited with code 0.
+
+Command output:
+
+Python 3.14.0
+Path                                                                                           
+----                                                                                           
+C:\Users\goleb\OneDrive - Wojskowa Akademia Techniczna\TeoriaDecyzjiStatystycznych\lab1\project
+
+

@@ -1,0 +1,203 @@
+message_id,text,label
+exercise-001,"Subject: [SAdev] Interesting approach to Spam handling..
+
+Hello, have you seen and discussed this article and his approach?
+
+Thank you
+
+http://www.paulgraham.com/spam.html
+-- ""Hell, there are no rules here-- we're trying to accomplish something.""
+-- Thomas Alva Edison
+
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+",spam
+exercise-002,"Subject: FORTUNE 500 COMPANY HIRING, AT HOME REPS.
+
+Help wanted.  We are a 14 year old fortune 500 company, that is
+growing at a tremendous rate.  We are looking for individuals who
+want to work from home.
+
+This is an opportunity to make an excellent income.  No experience
+is required.  We will train you.
+
+So if you are looking to be employed from home with a career that has
+vast opportunities, then go:
+
+http://www.basetel.com/wealthnow
+
+We are looking for energetic and self motivated people.  If that is you
+than click on the link and fill out the form, and one of our
+employement specialist will contact you.
+
+To be removed from our link simple go to:
+
+http://www.basetel.com/remove.html
+
+
+4139vOLW7-758DoDY1425FRhM1-764SMFc8513fCsLl40
+
+",spam
+exercise-003,"Subject: Re: [SAdev] Live Rule Updates after Release ???
+
+Yes - great minds think alike. But even withput eval rules it would be very 
+useful. It would allow us to respond quickly to spammer's tricks.
+
+Theo Van Dinter wrote:
+> On Thu, Aug 22, 2002 at 07:27:52AM -0700, Marc Perkel wrote:
+> 
+>>Has anyone though of the idea of live updates of rules after release? The 
+>>idea being that the user can run a cron job once a week or so and get the 
+>>new default rule set. This would allow us to react faster to:
+> 
+> 
+> I suggested this a few months ago.  I don't remember the details of what
+> came out of it except that it would only be useful for non-eval rules
+> since those require code changes.
+> 
+
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by: OSDN - Tired of that same old
+cell phone?  Get a new here for FREE!
+https://www.inphonic.com/r.asp?r=sourceforge1&refcode1=vs3390
+_______________________________________________
+Spamassassin-devel mailing list
+Spamassassin-devel@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/spamassassin-devel
+
+",ham
+exercise-004,"Subject: [ILUG] Re: Problems with RAID1 on cobalt raq3
+
+On Mon, Aug 19, 2002 at 03:08:16PM +0100, John P. Looney mentioned:
+>  This is likely because to get it to boot, like the cobalt, I'm actually
+> passing root=/dev/hda5 to the kernel, not /dev/md0. 
+
+ Just to solve this...the reason I was booting the box with
+root=/dev/hda5, not /dev/md0 was because /dev/md0 wasn't booting - it
+would barf with 'can't find init'.
+
+ It turns out that this is because I was populating md0 with tar. Which
+seems to have 'issues' with crosslinked files - for instance, it was
+trying to make a hard link of glibc.so to hda - and failing. It was only
+as I did it again with a friend present, that he spotted the errors, and
+queried them. We noticed that the hard linked files just didn't exist on
+the new rootfs.
+
+ When we duplicated the filesystems with dump instead of tar, it worked
+fine, I was able to tell lilo to use root=/dev/md0 and everything worked.
+
+ Woohoo.
+
+Kate
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+",ham
+exercise-005,"Subject: [ILUG] enter Chinese market
+
+Dear Sir or Madam:
+
+Please reply to 
+Receiver: China Enterprise Management Co., Ltd. (CMC)
+E-mail: unido@chinatop.net
+
+As one technical organization supported by China Investment and Technical Promotion Office of United Nation Industry Development Organization (UNIDO), we cooperate closely with the relevant Chinese Quality Supervision and Standardization Information Organization. We provide the most valuable consulting services to help you to open Chinese market within the shortest time:
+
+1. Consulting Service on Mandatory National Standards of The People's Republic of China.
+
+2. Consulting Service on Inspection and Quarantine Standards of The People's Republic of China.
+
+3. Consulting Service for Permission to Enter Chinese Market
+
+We are very sorry to disturb you! 
+
+More information, please check our World Wide Web: http://www.chinatop.net
+
+Sincerely yours
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+",spam
+exercise-006,"Subject: [IIU] Eircom aDSL Nat'ing
+
+Hi all,
+
+apologies for the possible silly question (i don't think it is, but), 
+but is Eircom's aDSL service NAT'ed?
+
+and what implications would that have for VoIP? I know there are 
+difficulties with VoIP or connecting to clients connected to a NAT'ed 
+network from the internet wild (i.e. machines with static, real IPs)
+
+any help pointers would be helpful,
+
+cheers
+-- 
+rgrds,
+Bernard
+-- 
+Bernard Tyers * National Centre for Sensor Research * P:353-1-700-5273 *
+E: bernard.tyers@dcu.ie * W: www.physics.dcu.ie/~bty * L:N117
+
+_______________________________________________
+IIU mailing list
+IIU@iiu.taint.org
+http://iiu.taint.org/mailman/listinfo/iiu
+
+",ham
+exercise-007,"Subject: ADV: Interest rates slashed! Don't wait!                                                   ccaxc
+
+INTEREST RATES HAVE JUST BEEN CUT!!!
+     
+NOW is the perfect time to think about refinancing your home mortgage! Rates are down! Take a minute and fill out our quick online form. 
+http://www.newnamedns.com/refi/
+           
+Easy qualifying, prompt, courteous service, low rates! Don't wait for interest rates to go up again, lock in YOUR low rate now!
+          
+          
+          
+         
+          
+        
+---------------------------------------
+To unsubscribe, go to: 
+http://www.newnamedns.com/stopthemailplease/
+Please allow 48-72 hours for removal.
+
+",spam
+exercise-008,"Subject: [ILUG] Sun Solaris..
+
+Can someone explain what type of operating system Solaris is... as ive never
+seen or used it i dont know wheather to get a server from Sun or from DELL i
+would prefer a linux based server and Sun seems to be the one for that but
+im not sure if Solaris is a distro of linux or a completely different
+operating system? can someone explain...
+
+Kiall Mac Innes
+
+
+-- 
+Irish Linux Users' Group: ilug@linux.ie
+http://www.linux.ie/mailman/listinfo/ilug for (un)subscription information.
+List maintainer: listmaster@linux.ie
+
+",ham

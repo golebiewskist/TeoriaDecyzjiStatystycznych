@@ -1,0 +1,10 @@
+message_id,text,label
+test-001,"Subject: Meeting
+
+Let's meet tomorrow, at noon.",ham
+test-002,"Subject: Special offer
+
+Buy our product today.",spam
+test-003,"Subject: Notes
+
+Here are the meeting notes.",ham

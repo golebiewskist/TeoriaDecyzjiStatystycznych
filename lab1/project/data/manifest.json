@@ -1,0 +1,132 @@
+{
+  "dataset": "Apache SpamAssassin public corpus",
+  "prepared_on": "2026-10-22",
+  "sources": {
+    "easy_ham": {
+      "url": "https://spamassassin.apache.org/old/publiccorpus/20030228_easy_ham.tar.bz2",
+      "sha256": "2b7b65904bcfcc31d2b5f51946f2d261370b257402cbbd62930b46ab83367438"
+    },
+    "spam": {
+      "url": "https://spamassassin.apache.org/old/publiccorpus/20030228_spam.tar.bz2",
+      "sha256": "c08debc32413804949a866be45ef78195cec2cbafd1da744ed76cdb860589743"
+    }
+  },
+  "packets": {
+    "demo.csv": {
+      "sha256": "4205a8f17cb463ca00130b5bcbaf24838e1697e26b4ed78f6b7c9f6ce3e87f14"
+    },
+    "exercise.csv": {
+      "sha256": "95e9049fe9f1283ba65514c7060499d175deaa88cd8c582097ced4cceed6ed07"
+    }
+  },
+  "messages": [
+    {
+      "message_id": "demo-001",
+      "packet": "demo.csv",
+      "label": "ham",
+      "source": "easy_ham",
+      "archive_member": "easy_ham/00001.7c53336b37003a9286aba55d2945844c",
+      "raw_file": "raw/demo-001.eml",
+      "sha256": "b3c10aa7833c68e55e3865afbdfdfd2171200bd8b8d797a4091f1004d087f98e"
+    },
+    {
+      "message_id": "demo-002",
+      "packet": "demo.csv",
+      "label": "spam",
+      "source": "spam",
+      "archive_member": "spam/00011.61816b9ad167657773a427d890d0468e",
+      "raw_file": "raw/demo-002.eml",
+      "sha256": "6d8b3789ffad534347b442f910c5cbc6edf7a35bb888179c4adeee042111cebd"
+    },
+    {
+      "message_id": "demo-003",
+      "packet": "demo.csv",
+      "label": "ham",
+      "source": "easy_ham",
+      "archive_member": "easy_ham/00010.145d22c053c1a0c410242e46c01635b3",
+      "raw_file": "raw/demo-003.eml",
+      "sha256": "b28fd56e81290ebc4199ae73dbf4cfd18fda21d6ffbf914e555c084ff5eebeb4"
+    },
+    {
+      "message_id": "demo-004",
+      "packet": "demo.csv",
+      "label": "spam",
+      "source": "spam",
+      "archive_member": "spam/00019.bbc97ad616ffd06e93ce0f821ca8c381",
+      "raw_file": "raw/demo-004.eml",
+      "sha256": "6db9f789892cdf1be9e3a93d97ef2a06a7f92445d87d885caee43ecb3bd544ff"
+    },
+    {
+      "message_id": "exercise-001",
+      "packet": "exercise.csv",
+      "label": "ham",
+      "source": "easy_ham",
+      "archive_member": "easy_ham/00011.fbcde1b4833bdbaaf0ced723edd6e355",
+      "raw_file": "raw/exercise-001.eml",
+      "sha256": "638880a332f797e01a95b10b226197c78376b43644fa075093e120c80dc1cc9e"
+    },
+    {
+      "message_id": "exercise-002",
+      "packet": "exercise.csv",
+      "label": "spam",
+      "source": "spam",
+      "archive_member": "spam/00007.d8521faf753ff9ee989122f6816f87d7",
+      "raw_file": "raw/exercise-002.eml",
+      "sha256": "5587807b85eebb8dce3ac2c165a15301587a2437c8901681a641a47232c0d15d"
+    },
+    {
+      "message_id": "exercise-003",
+      "packet": "exercise.csv",
+      "label": "ham",
+      "source": "easy_ham",
+      "archive_member": "easy_ham/00012.48a387bc38d1316a6f6b49e8c2e43a03",
+      "raw_file": "raw/exercise-003.eml",
+      "sha256": "58cebad0308d036b2cf1f31e79a1d719e5f2626747695e7457bfa82749780fbb"
+    },
+    {
+      "message_id": "exercise-004",
+      "packet": "exercise.csv",
+      "label": "ham",
+      "source": "easy_ham",
+      "archive_member": "easy_ham/00013.81c34741dbed59c6dde50777e27e7ea3",
+      "raw_file": "raw/exercise-004.eml",
+      "sha256": "195c1658c1e12aeca000e5313e637d525bc3becd57f1e96d4f3a4375f109e1c8"
+    },
+    {
+      "message_id": "exercise-005",
+      "packet": "exercise.csv",
+      "label": "spam",
+      "source": "spam",
+      "archive_member": "spam/00040.949a3d300eadb91d8745f1c1dab51133",
+      "raw_file": "raw/exercise-005.eml",
+      "sha256": "3cad3aee42df5b215e011f9fecd6793591f09a667daaf0dc1caf7646174be8f7"
+    },
+    {
+      "message_id": "exercise-006",
+      "packet": "exercise.csv",
+      "label": "ham",
+      "source": "easy_ham",
+      "archive_member": "easy_ham/00016.ef397cef16f8041242e3b6560e168053",
+      "raw_file": "raw/exercise-006.eml",
+      "sha256": "b374620887ccf9e32c6e14284a3221835e9baae1f58b228101ee9a4ec5a44051"
+    },
+    {
+      "message_id": "exercise-007",
+      "packet": "exercise.csv",
+      "label": "spam",
+      "source": "spam",
+      "archive_member": "spam/00047.0d7a240951e460b5884a8886ee64a8c3",
+      "raw_file": "raw/exercise-007.eml",
+      "sha256": "a7a8770bbb282a9dc419f8ea5f710d48481f52f43fc70d2f5ac3141feebd8600"
+    },
+    {
+      "message_id": "exercise-008",
+      "packet": "exercise.csv",
+      "label": "ham",
+      "source": "easy_ham",
+      "archive_member": "easy_ham/00020.d10651e31fcb92630c6229ec773cfe26",
+      "raw_file": "raw/exercise-008.eml",
+      "sha256": "71cdb562e87b551c5c896d1f4558f6dff3e51251579093e9dfe02c1011e185e1"
+    }
+  ]
+}

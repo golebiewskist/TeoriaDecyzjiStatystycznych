@@ -1,0 +1,5 @@
+Command exited with code 0.
+
+Command output:
+Report saved: C:\Users\goleb\OneDrive - Wojskowa Akademia Techniczna\TeoriaDecyzjiStatystycznych\lab1\project\results\exercise-summary.json
+Messages: 8; labels: {'ham': 5, 'spam': 3}

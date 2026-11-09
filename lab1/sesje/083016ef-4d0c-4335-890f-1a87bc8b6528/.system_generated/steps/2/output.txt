@@ -1,0 +1,16 @@
+Command exited with code 0.
+
+Command output:
+
+
+    Directory: C:\Users\goleb\OneDrive - Wojskowa Akademia Techniczna\TeoriaDecyzjiStatystycznych\lab1\project
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+dar--l        09.11.2026     23:56                data                                                                 
+dar--l        09.11.2026     23:56                tests                                                                
+-a---l        09.11.2026     23:55           2416 describe_data.py                                                     
+-a---l        09.11.2026     23:55           6198 README.md                                                            
+
+

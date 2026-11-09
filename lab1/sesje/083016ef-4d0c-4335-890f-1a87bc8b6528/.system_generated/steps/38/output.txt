@@ -1,0 +1,1 @@
+Made 1 replacement in C:\Users\goleb\OneDrive - Wojskowa Akademia Techniczna\TeoriaDecyzjiStatystycznych\lab1\project\data\exercise.csv starting at line 22 (+1/-1 lines).
